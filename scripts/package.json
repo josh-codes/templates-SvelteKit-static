@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "scripts": {
+        "build:run": "npm run build && npm run run",
+        "build": "tsc",
+        "run": "node js/replace.js"
+    },
+    "devDependencies": {
+        "@types/node": "^16.7.2"
+    },
+    "dependencies": {
+        "typescript": "^4.4.2"
+    }
+}

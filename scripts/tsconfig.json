@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "js",
+        "target": "ES2019",
+        "moduleResolution": "node"
+    },
+    "include": ["ts/**/*"]
+}
